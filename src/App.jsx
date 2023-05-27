@@ -29,10 +29,10 @@ class App extends React.Component {
 
     this.setState({ power: !this.state.power, display: power });
   }
-  
+
   turnInterstellar() {
     const mode = this.state.mode === 0 ? 1 : 0;
-    const tars = mode === 1 ? "No. It's necessary" : 'This is not possible';
+    const tars = mode === 1 ? 'Docking' : 'Normal';
     this.setState({ mode: mode, display: tars });
   }
   setVolume(event) {

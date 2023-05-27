@@ -78,7 +78,7 @@ class DrumPad extends React.Component {
             button.classList.remove('active');
           }, 200);
           button.click();
-        }, 230 * (i + j * (notes.length - 1)));
+        }, 230 * (i + j * (notes.length - 1)) + j * 2000);
       }
     }
   }
