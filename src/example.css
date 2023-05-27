@@ -1,0 +1,83 @@
+:root {
+  --opacitySet: 100%;
+  --color-fondo: #ffffff;
+  --mi-color-oscuro: rgba(var(--color-fondo), 0.5);
+}
+body {
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-image: url('./images/Lucian Background.jpg');
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-quote {
+  transition: border-color 1s;
+
+  position: relative;
+  width: 40vw;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 18px solid var(--color-fondo);
+  border-radius: 32px;
+}
+* {
+  box-sizing: border-box;
+}
+.twitter {
+  color: aqua;
+}
+.boxfooter {
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  bottom: 0;
+}
+
+.quote {
+  opacity: var(--opacitySet);
+  transition: opacity 0.2s;
+  font-size: 24px;
+  color: white;
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.lucian {
+  right: 0;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  font-size: 26px;
+  font-style: italic;
+}
+
+.icon {
+  color: white;
+  font-size: 36px;
+  font-style: italic;
+  margin: 5px 0;
+}
+.button {
+  outline: 0 !important;
+
+  margin-top: 17px;
+  border-radius: 10px;
+  height: 30px;
+  min-width: 30px;
+  background-color: var(--color-fondo);
+  width: max-content;
+  font-size: 14px;
+  padding: 5px;
+  transition: filter 0.5s, background-color 1s;
+  filter: brightness(100%);
+}
