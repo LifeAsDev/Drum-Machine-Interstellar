@@ -11,7 +11,7 @@ const drumPadData = [
     C: 'https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3',
   },
   {
-    Q: 'Interstellar Sounds/Sound 1.ogg',
+    Q: 'https://stackblitz.com/files/vitejs-vite-9n74xa/github/LifeAsDev/Drum-Machine-Interstellar/main/src/Interstellar Sounds/Sound 1.ogg',
     W: 'Interstellar Sounds/Sound 2.ogg',
     E: 'Interstellar Sounds/Sound 3.ogg',
     A: 'Interstellar Sounds/Sound 4.ogg',
